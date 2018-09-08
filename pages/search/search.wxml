@@ -1,0 +1,11 @@
+<view class="page-body">
+
+<view class="h1">{{bookShelfName}}</view>
+<view>
+<input class="weui-input" auto-focus placeholder="请输入搜索书籍"/>
+</view>
+<view class="button-view"><button class="button-on">搜索</button></view>
+</view>
+
+
+

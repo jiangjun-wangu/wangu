@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/search/search",
+    "pages/bookshelf/bookshelf",
+    "pages/personalCenter/personalCenter",
+    "pages/news/news"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "极点阅读",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "selectedColor":"#336633",
+        "position": "top",
+        "borderStyle":"black"
+      },
+      {
+        "pagePath": "pages/bookshelf/bookshelf",
+        "text": "书架",
+       "selectedColor": "#336633",
+       "position": "bottom"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "selectedColor": "#336633",
+        "position": "bottom"
+      },
+      {
+       "pagePath": "pages/personalCenter/personalCenter",
+       "text": "个人中心",
+       "selectedColor": "#336633",
+       "position":"bottom"
+      }
+    ]
+  }
+}
